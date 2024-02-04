@@ -1,0 +1,56 @@
+.footer {
+    &__title {
+        padding-top: 114px;
+        margin-bottom: 20px;
+    }
+
+    &__subtitle {
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 29px;
+    }
+
+    &__btn {
+        display: block;
+        margin: 0 auto;
+        width: 180.5px;
+        height: 42px;
+        font-weight: 700;
+        font-style: 18px;
+        line-height: 22px;
+        color: #fff;
+        background-color: #000;
+        border: 0;
+        border-radius: 30px;
+        margin-bottom: 79px;
+        transition: all .2s linear;
+
+        &:hover {
+            color: #000;
+            background-color: #fff;
+            border: 1px solid black;
+        }
+    }
+
+    &__social {
+        margin: 0 auto;
+        max-width: 342px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 45px;
+    }
+
+    &__text {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #828282;
+        margin-bottom: 123px;
+
+    }
+
+}
